@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+footer, header {
+	clear: both;
+}
+
+footer {
+	text-align: center;
+}
+
+body {
+	color: #222;
+}
+
+aside, main #content, footer {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside, main, footer {
+	padding: 20px;
+}
+
+aside {
+	width: 250px;
+	float: left;
+}
+
+main {
+	margin-left: 250px;
+}
+
+#content {
+	min-height: 100%;
+	margin-bottom: -60px;
+}
+#content:after {
+	content: "";
+	display: block;
+}
+
+footer, #content:after {
+	height: 60px;
+}
